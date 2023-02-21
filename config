@@ -44,7 +44,7 @@ bindsym XF86MonBrightnessUp exec brightnessctl set +2%
 
 # captura
 #bindsym Print exec spectacle
-bindsym Print exec gnome-screenshot -i
+bindsym Print exec flameshot gui
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
