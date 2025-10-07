@@ -57,8 +57,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # lock window
-bindsym $mod+x exec i3lock -c 000000
-bindsym $mod1+l exec i3lock -c 000000
+bindsym $mod+x exec i3lock --blur 5 --clock --indicator --ring-width 7.0 --inside-color=00000000 --ring-color=ffffffff --insidever-color=00000000 --ringver-color=ffffffff --insidewrong-color=00000000 --ringwrong-color=ffffffff --line-color=00000000 --keyhl-color=ffffffff --bshl-color=ffffffff --separator-color=00000000 --verif-color=ffffffff --wrong-color=ffffffff --modif-color=ffffffff
+bindsym $mod1+l exec i3lock --blur 5 --clock --indicator --ring-width 7.0 --inside-color=00000000 --ring-color=ffffffff --insidever-color=00000000 --ringver-color=ffffffff --insidewrong-color=00000000 --ringwrong-color=ffffffff --line-color=00000000 --keyhl-color=ffffffff --bshl-color=ffffffff --separator-color=00000000 --verif-color=ffffffff --wrong-color=ffffffff --modif-color=ffffffff
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id dmenu_run
